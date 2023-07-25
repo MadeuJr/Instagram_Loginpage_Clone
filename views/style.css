@@ -1,0 +1,73 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flexmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 33px;
+    margin-right: 3px;
+    margin-left: 7px;
+}
+
+.login{
+    border: 2px solid black;
+    width: 350px;
+    height: 581.14px;
+    flex: 0 0 350px;
+    margin: 12px;
+    
+}
+
+.logologin{
+    width: 175px;
+}
+
+
+
+.phoneimage{
+    flex: 0 0;
+    transform: translate(-6px, -13px);
+}
+
+.footerflex{
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    height: 150px;
+    flex-wrap: wrap; 
+}
+
+footer{
+    width: 100%;
+    flex-direction: column;
+}
+
+footer div a{
+    text-decoration: none;
+    color: rgb(137, 137, 137);
+    font-size: 12px;
+    margin: 10px 8.5px;
+    flex-basis: content;
+}
+
+footer div a:hover{
+    text-decoration: underline;
+}
+
+.footerdiv{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* Media Queries  */
+
+@media (max-width: 767.98px){
+    .phoneimage{
+        display: none;
+    }
+}
